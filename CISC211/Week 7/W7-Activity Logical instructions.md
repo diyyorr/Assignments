@@ -20,7 +20,7 @@ ld -m elf_i386 xor.o -o xor
 gdb ./xor
 break _start
 run
-display $ebx ;ebx will be 0 to confirm that that XORing an operand with itself changes the operand to 0
+display $ebx ;ebx will be 0x0 (0) to confirm that that XORing an operand with itself changes the operand to 0
 stepi ; repeat 5 times 
      
 ```
@@ -52,6 +52,6 @@ ld -m elf_i386 test.o -o test
 gdb ./test
 break _start
 run
-display $ebx ;ebx will be 0x0 confirming that 8 is even
+display $ebx ;ebx will be 0x0 (0) confirming that 8 is even
 stepi   ; repeat 6 times
 ```
