@@ -16,27 +16,27 @@ section .text
 global _start
 
 _start:
-;Equation 1: result= -var1*10
+;Equation1: result= -var1*10
 mov eax, [var1]
 neg eax
 imul eax, 10
 mov [result1], eax    
 
-;Equation 2: result= var1+var2+var3+var4
+;Equation2: result= var1+var2+var3+var4
 mov eax, [var1]
 add eax, [var2]
 add eax, [var3]
 add eax, [var4]
 mov [result2], eax    
 
-;Equation 3: result= (-var1*var2)+var3
+;Equation3: result= (-var1*var2)+var3
 mov eax, [var1]
 neg eax
 imul eax, [var2]
 add eax, [var3]
 mov [result3], eax    
 
-;Equation 4: result= (var1*2)/(var2 - 3) 
+;Equation4: result= (var1*2)/(var2-3) 
 mov eax, [var1]
 imul eax, 2
 mov ebx, [var2]
