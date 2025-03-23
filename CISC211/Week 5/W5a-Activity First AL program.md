@@ -1,5 +1,6 @@
 ## Code for W5A
-```SYS_EXIT equ 1
+```
+SYS_EXIT equ 1
 SYS_WRITE equ 4
 STDIN equ 0
 STDOUT equ 1
