@@ -16,7 +16,13 @@ int 0x80
 nasm -f elf32 xor.asm -o xor.o
 ld -m elf_i386 xor.o -o xor
 ./xor
-echo $?      
+
+gdb ./xor
+break _start
+run
+display $ebx ;ebx will be 0 to confirm that that XORing an operand with itself changes the operand to 0
+stepi ; repeat 5 times 
+     
 ```
 ## Code for Part 2 of Activity Logical Instructions
 ```
@@ -40,8 +46,12 @@ int 0x80
 ```
 ## Steps to Run 
 ```
-nasm -f elf32 -o test.o test.asm
-ld -m elf_i386 -o test test.o
+nasm -f elf32 test.asm -o test.o
+ld -m elf_i386 test.o -o test
 ./test
-echo $?  
+gdb ./test
+break _start
+run
+display $ebx ;ebx will be 0x0 confirming that 8 is even
+stepi   ; repeat 6 times
 ```
