@@ -37,10 +37,10 @@ int 0x80
 ```
 ## Steps to Run
 ```
-nasm -f elf32 exam1.asm -o exam1.o
-ld -m elf_i386 exam1.o -o exam1
-./exam1 ; will get 9 returned to terminal
-gdb ./exam1
+nasm -f elf32 exem.asm -o exem.o
+ld -m elf_i386 exem.o -o exem
+./exem ; will get 9 returned to terminal
+gdb ./exem
 break _start
 run
 si
@@ -60,7 +60,7 @@ Register Name : Edx = 0 (Remainder) after division
 
 
 ## 2. Using a K-map, simplify the following equation. 
-![image](https://github.com/user-attachments/assets/692b3df3-effa-4c40-bfb3-1bb1977fd8e3)
+
 
 ## Write a code that identifies an odd or an even number
 ```
