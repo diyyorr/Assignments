@@ -61,6 +61,7 @@ Register Name : Edx = 0 (Remainder) after division
 
 ## 2. Using a K-map, simplify the following equation. 
 
+![image](https://github.com/user-attachments/assets/08be85a0-3cbf-4493-b18f-768f17b32cec)
 
 ## Write a code that identifies an odd or an even number
 ```
