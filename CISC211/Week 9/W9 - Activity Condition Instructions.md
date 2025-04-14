@@ -35,15 +35,15 @@ section .text
 _start:
   mov eax, [num1] ; put num1 into eax to begin the tracking of biggest integer
   cmp eax, [num2]    
-  jge next1 ; if eax is greater or equal, keep it 
+  jge step1 ; if eax is greater or equal, keep it 
   mov eax, [num2] ; if not greater, update with 2nd number        
 step1:
   cmp eax, [num3] ;step1 through 3 will check for greater or equal as well
-  jge next2
+  jge step2
   mov eax, [num3]
 step2:
   cmp eax, [num4]
-  jge next3
+  jge step3
   mov eax, [num4]
 step3:
   cmp eax, [num5]
@@ -76,3 +76,6 @@ stepi
 ```
 ## Results
 ![image](https://github.com/user-attachments/assets/cc878c4c-e0cf-4988-ac4a-a0bf8eaf68ed)
+
+## Flow Chart + Challenges 
+![image](https://github.com/user-attachments/assets/aef60cb5-751f-437c-b126-648995029b33)
