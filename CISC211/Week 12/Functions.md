@@ -52,4 +52,12 @@ Assemble Code
 Run Code
 See Result
 ```
-## Result & Flowchart
+## Result
+
+![image](https://github.com/user-attachments/assets/4bc3a276-5014-4259-a73d-89c40bf5b3fc)
+
+## Flowchart
+
+![image](https://github.com/user-attachments/assets/cc23f95b-2e81-4d52-a1c6-8b7569915d42)
+
+
