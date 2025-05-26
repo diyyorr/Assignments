@@ -101,3 +101,8 @@ done_decrypt:
 
 # Flowchart and Thought Process
 ![image](https://github.com/user-attachments/assets/7f1349d6-edf0-4a0e-943f-c0ad81a6b9d4)
+
+# Video
+https://github.com/user-attachments/assets/1fb0b6bf-14bb-4a29-9d75-707d205e2509
+
+
