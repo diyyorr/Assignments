@@ -95,5 +95,9 @@ done_decrypt:
     int 0x80
 
 ```
+# Results
+![image](https://github.com/user-attachments/assets/648ddf17-5d03-4760-bf7b-c6ebb62b8275)
+![image](https://github.com/user-attachments/assets/371b20fd-d7e1-4b7d-bb64-6a1c9871233f)
+
 # Flowchart and Thought Process
 ![image](https://github.com/user-attachments/assets/7f1349d6-edf0-4a0e-943f-c0ad81a6b9d4)
