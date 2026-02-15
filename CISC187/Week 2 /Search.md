@@ -214,5 +214,7 @@ int main() {
 ```
 <img width="332" height="72" alt="image" src="https://github.com/user-attachments/assets/92c168ff-d919-4ceb-a739-cf3cfb595900" />
 
+
+
 I believe binary search is the most efficient when the data is sorted because it is the fastest at O(log N). It cuts the array in half each step, so it needs far fewer comparisons than the others. Randomized search would be second since it may sometimes find the value quickly, but its average and worst case are still O(N), the same as linear search. Linear search is third because it checks elements one by one and can take up to N steps. For unsorted data, binary search cannot be used unless we sort first, so linear and randomized are more practical. The big difference in time complexity really shows when the data is already sorted.
 
